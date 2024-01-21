@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = ({ isDarkMode, toggleTheme }) => {
   return (
@@ -46,11 +46,11 @@ export const Header = ({ isDarkMode, toggleTheme }) => {
         </div>
 
         <div>
-            <FontAwesomeIcon
-              icon={faMoon}
-              className="change-theme"
-              onClick={toggleTheme}
-            />
+          <FontAwesomeIcon
+            icon={faMoon}
+            className="change-theme"
+            onClick={toggleTheme}
+          />
         </div>
       </nav>
     </header>
