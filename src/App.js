@@ -17,6 +17,9 @@ function App() {
   };
   return (
     <div className="App">
+
+
+      <body>
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
 
       <main className={isDarkMode ? "app dark-mode" : "main"}>
@@ -29,9 +32,7 @@ function App() {
         <Footer />
       </main>
 
-      <a href="#home" className="scrollup" id="scroll-up">
-        <i className="fa-solid fa-arrow-up scroll-up-icon"></i>
-      </a>
+      </body>
     </div>
   );
 }
