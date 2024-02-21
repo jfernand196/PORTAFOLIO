@@ -32,7 +32,7 @@ export const Project = () => {
             effectively.
           </p>
 
-          <a href="https://github.com/jfernand196" className="arrow">
+          <a href="https://jfernand196.github.io/studiodev/" className="arrow">
             Project Link
             <FontAwesomeIcon
               icon={faArrowRight}
